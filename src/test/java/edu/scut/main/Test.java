@@ -1,6 +1,5 @@
 package edu.scut.main;
 
-import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,20 +56,25 @@ public class Test {
 //			System.out.print(" ");
 //		}
 		
-		TreeNode root = new TreeNode(10);
-		root.right = new TreeNode(-3);
-		root.right.right = new TreeNode(11);
+//		TreeNode root = new TreeNode(10);
+//		root.right = new TreeNode(-3);
+//		root.right.right = new TreeNode(11);
+//		
+//		root.left = new TreeNode(5);
+//		root.left.left = new TreeNode(3);
+//		root.left.right = new TreeNode(2);
+//		root.left.left.left = new TreeNode(3);
+//		root.left.left.right = new TreeNode(-2);
+//		root.left.right.right = new TreeNode(1);
+//		
+//		T437 t437 = new T437();
+//		int record = t437.pathSum(root, 8);
+//		System.out.println(record);
 		
-		root.left = new TreeNode(5);
-		root.left.left = new TreeNode(3);
-		root.left.right = new TreeNode(2);
-		root.left.left.left = new TreeNode(3);
-		root.left.left.right = new TreeNode(-2);
-		root.left.right.right = new TreeNode(1);
-		
-		T437 t437 = new T437();
-		int record = t437.pathSum(root, 8);
-		System.out.println(record);
+		T438 t438 = new T438();
+		String s = "cbaebabacd";
+		String p = "abc";
+		System.out.println(t438.findAnagrams(s, p));
 	}
 	
     /**2.将数组转换为list*/
