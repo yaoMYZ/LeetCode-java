@@ -71,10 +71,24 @@ public class Test {
 //		int record = t437.pathSum(root, 8);
 //		System.out.println(record);
 		
-		T438 t438 = new T438();
-		String s = "cbaebabacd";
-		String p = "abc";
-		System.out.println(t438.findAnagrams(s, p));
+//		T438 t438 = new T438();
+//		String s = "cbaebabacd";
+//		String p = "abc";
+//		System.out.println(t438.findAnagrams(s, p));
+		
+		T1030 t1030 = new T1030();
+		int R = 3;
+		int C = 5;
+		int r0 = 2;
+		int c0 = 3;
+		int[][] result = t1030.allCellsDistOrder(R, C, r0, c0);
+		for (int[] is : result) {
+			for (int is2 : is) {
+				System.out.print(is2);
+				System.out.print(" ");
+			}
+			System.out.println("\t");
+		}
 	}
 	
     /**2.将数组转换为list*/
