@@ -76,18 +76,32 @@ public class Test {
 //		String p = "abc";
 //		System.out.println(t438.findAnagrams(s, p));
 		
-		T1030 t1030 = new T1030();
-		int R = 3;
-		int C = 5;
-		int r0 = 2;
-		int c0 = 3;
-		int[][] result = t1030.allCellsDistOrder(R, C, r0, c0);
-		for (int[] is : result) {
-			for (int is2 : is) {
-				System.out.print(is2);
-				System.out.print(" ");
-			}
-			System.out.println("\t");
+//		T1030 t1030 = new T1030();
+//		int R = 3;
+//		int C = 5;
+//		int r0 = 2;
+//		int c0 = 3;
+//		int[][] result = t1030.allCellsDistOrder(R, C, r0, c0);
+//		for (int[] is : result) {
+//			for (int is2 : is) {
+//				System.out.print(is2);
+//				System.out.print(" ");
+//			}
+//			System.out.println("\t");
+//		}
+		
+//		T134 t134 = new T134();
+//		int[] gas  = {};
+//		int[] cost = {};
+//		int idx = t134.canCompleteCircuit(gas, cost);
+//		System.out.println(idx);
+		
+		T448 t448 = new T448();
+		int[] nums = {4,3,2,7,8,2,3,1};
+		List<Integer> result = t448.findDisappearedNumbers(nums);
+		for (Integer integer : result) {
+			System.out.print(integer);
+			System.out.print(" ");
 		}
 	}
 	
