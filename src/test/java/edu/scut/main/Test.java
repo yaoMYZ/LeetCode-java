@@ -96,10 +96,18 @@ public class Test {
 //		int idx = t134.canCompleteCircuit(gas, cost);
 //		System.out.println(idx);
 		
-		T448 t448 = new T448();
-		int[] nums = {4,3,2,7,8,2,3,1};
-		List<Integer> result = t448.findDisappearedNumbers(nums);
-		for (Integer integer : result) {
+//		T448 t448 = new T448();
+//		int[] nums = {4,3,2,7,8,2,3,1};
+//		List<Integer> result = t448.findDisappearedNumbers(nums);
+//		for (Integer integer : result) {
+//			System.out.print(integer);
+//			System.out.print(" ");
+//		}
+		
+		T283 t283 = new T283();
+		int[] nums = {0,1,0,3,12};
+		t283.moveZeroes(nums);;
+		for (Integer integer : nums) {
 			System.out.print(integer);
 			System.out.print(" ");
 		}
