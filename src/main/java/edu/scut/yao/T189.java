@@ -32,12 +32,16 @@ public class T189 {
     }
 	
 	public static void main(String[] args) {
-		T189 t189 = new T189();
-		int[] nums = {-1,-100,3,99};
-		int k=2;
-		t189.rotate(nums, k);
-		for (int i : nums) {
-			System.out.println(i);
-		}
+//		T189 t189 = new T189();
+//		int[] nums = {-1,-100,3,99};
+//		int k=2;
+//		t189.rotate(nums, k);
+//		for (int i : nums) {
+//			System.out.println(i);
+//		}
+		int j=1;
+		int k = 1<<j;
+		System.out.println(k);
+		System.out.println(j);
 	}
 }
