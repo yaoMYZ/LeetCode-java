@@ -49,7 +49,7 @@ public class T1202 {
 
         public void union(int x, int y) {
             int rootX = find(x);
-            int rootY = find(y);
+			int rootY = find(y);
             if (rootX == rootY) {
                 return;
             }
