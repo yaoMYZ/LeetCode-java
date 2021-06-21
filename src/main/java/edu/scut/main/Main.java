@@ -21,6 +21,8 @@ public class Main {
 		String a = new String("adc");
 		String b = "adc";
 		System.out.println(a==b);
+		
+		System.out.println("dsfsd"+1);
 //		int num = 1;
 //		changeValue(num);
 //		System.out.println(num);
